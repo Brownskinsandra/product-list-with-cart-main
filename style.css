@@ -128,10 +128,14 @@ ul li a{
     display: flex;
     flex-direction: column;
 }
-.button .hidden{
-    display: none;
-}
 
+/* .button .hidden{
+    display: none;
+} */
+.hidden button{
+    background-color: transparent;
+    border: none;
+}
 .Shop{
     border: none;
     box-shadow: none;
