@@ -29,14 +29,24 @@ margin: 0px;
     margin-top:-15px ;
     padding: 0px 15px;
 }
-.description a{
+
+.plusminus{
+    display: flex;
+    background-color:rgb(199, 58, 15, 0.3);
+    font-weight:bold ;
+    border-radius: 10px;
+}
+.plusminus button{
+    margin:0px 10px;
+}
+.description a button{
     text-decoration: none;
     color: white;
     background-color: rgb(62, 48, 43);
     padding:5px 10px;
     border: transparent;
     border-radius: 20px;
-    margin-top: -15px;
+    margin-top: 5px;
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
@@ -51,5 +61,8 @@ margin: 0px;
     padding: 0rem;
     align-items: center;
     margin: 10px 0px;
+}
+.p2 {
+    margin-bottom: -5px;
 }
 }
